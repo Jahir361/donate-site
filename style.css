@@ -1,0 +1,109 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(images/donation3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.headding{
+    text-align: center;
+    color: white;
+    padding: 150px 50px 100px 30px;
+}
+.headding h1{
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+.donate-btn{
+    border: 1px solid green;
+    border-radius: 40px;
+    padding: 10px 30px;
+    background-image: linear-gradient(#6CC4A1,#A0D995);
+}
+.headding a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.donate-today{
+    text-align: center;
+}
+.donate-today h1{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.box{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.box h1{
+    
+    
+    height: 50px;
+    width: 60px;
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 10px;   
+}
+h1.highlight{
+    border: 3px solid #6CC4A1;
+    background-color: #A0D995;
+}
+.ammount-receive{
+    text-align: center;
+    
+}
+hr{
+    align-items: center;
+    width: 50%;
+}
+.donation-receive{
+    border-style: none;
+}
+.ammount-receive a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.program-info{
+    text-align: center;
+}
+.program-info h1{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 60px;
+}
+.program-info-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info-box-data{
+    border: 1px solid none;
+    height: 150px;
+    width: 250px;
+    background-color: antiquewhite;
+    padding: 100px 10px  10px 15px;
+    margin: auto;
+}
+.info-box-data1{
+background-color: #C7D36F;
+}
+.info-box-data2{
+    background-color: #FCF9C6;
+}
+.info-box-data3{
+    background-color: #E0DECA;
+}
